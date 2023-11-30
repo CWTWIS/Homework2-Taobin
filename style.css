@@ -10,14 +10,14 @@ body{
 header{
     background-color: palegoldenrod !important;
     display: flex;
-    background-image: url(../project06/pics/turtlefly.png);
+    /* background-image: url(../project06/pics/turtlefly.png); */
     background-size: cover;
     /* height: 70px; */
     /* padding-top: 25px;
     padding-bottom: 25px; */
     /* padding-block: 25px;
     padding-inline: 10px; */
-    min-height: 350px;
+    min-height: 100px;
 }
 nav{
     background-color: cornflowerblue;   
@@ -69,6 +69,9 @@ img{
     /* display: flex; */
     /* justify-content: center; */
     /* background-color: antiquewhite; */
+}
+.turtle{
+    width: 50%;
 }
 p{
     font-size: 15px;
