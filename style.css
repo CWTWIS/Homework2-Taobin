@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    min-height: 100vh;
+    max-width: 1024;
+    margin: auto;
+    font-family: 'Mali', cursive;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+header{
+    background-color: palegoldenrod !important;
+    display: flex;
+    background-image: url(../project06/pics/turtlefly.png);
+    background-size: cover;
+    /* height: 70px; */
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
+    /* padding-block: 25px;
+    padding-inline: 10px; */
+    min-height: 350px;
+}
+nav{
+    background-color: cornflowerblue;   
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.buttongroup{
+    display: flex;
+    gap: 10px
+}
+.prev{
+ 
+    font-size: 40px;
+}
+.buttongroup button{
+    border: none;
+    border-radius: 20%;
+}
+.welcome{
+    /* background-color: coral; */
+    font-size: 30px;
+    font-weight: bold;
+    color: coral;
+    text-align: center;
+    /* padding-top: 60px; */
+    margin-top: 60px;
+}
+.select{
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12px;
+}
+.itemrow{
+    margin: 10px;
+    /* background-color: lightpink; */
+    /* border: 1px dashed palevioletred; */
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: bold;
+}
+img{
+    width: 90px;
+    margin: 0 auto;    
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: antiquewhite; */
+}
+p{
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+.circular_text{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(250, 250, 250);
+    border-radius: 50%;
+}
